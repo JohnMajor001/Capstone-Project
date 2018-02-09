@@ -10,7 +10,7 @@ html {
 .opacity {
   opacity: 0.5;
 }
-/* .border {
+ /*.border {
   border: 1px solid black;
 }*/
 /* HEADER */
@@ -18,7 +18,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 0.5rem 1.5rem;
   height: 4rem;
 }
 .headerLeft {
@@ -75,9 +75,41 @@ html {
   .headerLeft {
     width: 100%;
     justify-content: space-around;
-}
+  }
 .headerLeftLogo {
   height: 50%;
+  }
 }
 
 /* FIRST SECTION */
+.firstSection {
+display: flex;
+background-color: seashell;
+}
+.firstSectionImg {
+  margin: 2rem 1.5rem;
+  width: 60%;
+}
+.firstSectionText {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  padding: 3rem;
+}
+.firstSectionText h1 {
+ font-size: 6rem;
+ margin-bottom: 3rem;
+}
+.firstSectionText h4 {
+  color: white;
+  background-color: darkgray;
+  text-align: center;
+  padding: 0.5rem 0;
+  width: 70%;
+  margin: 3rem;
+  font-size: 2rem;
+  border-radius: 0.75rem;
+}
+.firstSectionText p {
+  font-size: 2rem;
+}
