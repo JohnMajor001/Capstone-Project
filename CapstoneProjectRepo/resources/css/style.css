@@ -113,6 +113,7 @@ background-color: seashell;
 .firstSectionText p {
   font-size: 2rem;
 }
+/* FIRST SECTION BREAK POINT */
 @media only screen and (max-width: 740px) {
   .firstSection {
   display: flex;
@@ -139,4 +140,55 @@ background-color: seashell;
     width: 50%;
   }
 }
+
 /* SECOND SECTION */
+
+.secondSection {
+  padding: 2rem 0;
+  display: flex;
+  width: 100%;
+}
+.secondSectionA {
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.secondSectionA h1 {
+  padding: 2rem 0 1.5rem 0;
+  font-size: 3rem;
+}
+.secondSectionA p {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+.secondSectionA h3 {
+  padding-bottom: 1.5rem;
+}
+.secondSectionB {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.secondSectionB1 {
+  padding: 1rem;
+  display: flex;
+}
+.secondSectionB1Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+.secondSectionB1Text h1 {
+  font-size: 2rem;
+}
+.secondSectionB1Text h3 {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+/* SECOND SECTION BREAK POINT */
+@media only screen and (max-width: 740px) {
+
+}
