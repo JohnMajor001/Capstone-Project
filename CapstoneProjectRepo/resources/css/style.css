@@ -22,9 +22,22 @@ body {
 .permanentMarker {
   font-family: 'Permanent Marker', cursive;
 }
-/*.border {
+/* BACKGROUND COLORS */
+.happyYellow {
+  background-color: rgb(255, 247, 15);
+}
+.red {
+  background-color: rgb(255, 15, 15);
+}
+.orange {
+  background-color: rgb(255, 163, 15);
+}
+.green {
+  background-color: rgb(139, 255, 15);
+}
+.border {
   border: 1px solid black;
-}*/
+}
 /* HEADER */
 .header {
   display: flex;
@@ -107,7 +120,8 @@ body {
 }
 .firstSection {
 display: flex;
-background-color: seashell;
+justify-content: center;
+width: 100%;
 }
 .firstSectionImg {
   margin: 2rem 1.5rem;
@@ -115,7 +129,7 @@ background-color: seashell;
 }
 .firstSectionText {
   display: flex;
-  width: 35%;
+  width: 100%;
   flex-direction: column;
   padding: 3rem;
 }
@@ -129,7 +143,7 @@ background-color: seashell;
   text-align: center;
   padding: 0.5rem 0;
   width: 70%;
-  margin: 3rem;
+  margin: 3rem 0;
   font-size: 2rem;
   border-radius: 0.75rem;
   font-family: 'Righteous', cursive;
@@ -409,6 +423,7 @@ font-size: 3rem;
   margin-bottom: 1.5rem;
   margin-right: 0;
   padding: 0;
+  width: 100%;
 }
 .videoSection h2 {
   margin-bottom: 0.5rem;
@@ -422,11 +437,17 @@ font-size: 3rem;
 }
 .nextToVideoSection {
   width: 40%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .nextToVideoSectionBox {
   display: flex;
   align-items: center;
-  width: 65%;
+  width: 100%;;
+  border-radius: 2rem;
 }
 .nextToVideoSectionBox img {
   margin: 1rem;
