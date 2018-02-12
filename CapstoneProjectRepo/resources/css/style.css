@@ -10,9 +10,21 @@ html {
 .opacity {
   opacity: 0.5;
 }
- .border {
-  border: 1px solid black;
+body {
+  font-family: Helvetica;
 }
+.abrilFatFace {
+  font-family:'Abril Fatface', cursive;
+}
+.monoton {
+  font-family: 'Monoton', cursive;
+}
+.permanentMarker {
+  font-family: 'Permanent Marker', cursive;
+}
+/*.border {
+  border: 1px solid black;
+}*/
 /* HEADER */
 .header {
   display: flex;
@@ -20,6 +32,7 @@ html {
   align-items: center;
   padding: 0.5rem 1.5rem;
   height: 4rem;
+  font-family: Verdana;
 }
 .headerLeft {
   display: flex;
@@ -56,6 +69,9 @@ html {
   .breakAppear {
     display: inline;
   }
+  #fiveRem {
+    font-size: 5rem;
+  }
 }
 
 /* HEADER MOBILES */
@@ -85,6 +101,10 @@ html {
 }
 
 /* FIRST SECTION */
+.spanWord {
+  font-size: 9rem;
+  margin-bottom: 3rem;
+}
 .firstSection {
 display: flex;
 background-color: seashell;
@@ -101,20 +121,22 @@ background-color: seashell;
 }
 .firstSectionText h1 {
  font-size: 6rem;
- margin-bottom: 3rem;
+ font-family: 'Monoton', cursive;
 }
 .firstSectionText h4 {
   color: white;
-  background-color: darkgray;
+  background-color: black;
   text-align: center;
   padding: 0.5rem 0;
   width: 70%;
   margin: 3rem;
   font-size: 2rem;
   border-radius: 0.75rem;
+  font-family: 'Righteous', cursive;
 }
 .firstSectionText p {
   font-size: 2rem;
+  font-family: 'Caveat', cursive;
 }
 /* FIRST SECTION BREAK POINT */
 @media only screen and (max-width: 740px) {
@@ -132,7 +154,7 @@ background-color: seashell;
     text-align: center;
   }
   .firstSectionText h1 {
-   font-size: 5rem;
+   font-size: 3rem;
    margin-bottom: 2rem;
   }
   .firstSectionText h4 {
@@ -145,7 +167,7 @@ background-color: seashell;
 @media only screen and (max-width: 640px) {
   .firstSectionText h1 {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
   .firstSectionText h4 {
     margin-top: 3rem;
@@ -155,6 +177,21 @@ background-color: seashell;
   }
   .firstSectionText p {
     font-size: 2rem;
+  }
+  .firstSection {
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  .firstSectionText {
+    margin: 0;
+    padding: 0;
+  }
+  .spanWord {
+    padding: 0;
+    margin: 0;
+  }
+  .marginBreakBottom {
+    margin-bottom: 1rem;
   }
 }
 /* SECOND SECTION */
@@ -177,6 +214,7 @@ background-color: seashell;
 .secondSectionA p {
   padding-bottom: 1.5rem;
   font-size: 1.5rem;
+  opacity: 0.7;
 }
 .secondSectionA h3 {
   padding-bottom: 4rem;
@@ -192,7 +230,7 @@ background-color: seashell;
   flex-direction: column;
 }
 .secondSectionB1 {
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   display: flex;
 }
 .secondSectionB1Text {
@@ -207,6 +245,9 @@ background-color: seashell;
 .secondSectionB1Text h3 {
   padding: 1rem 0;
   font-size: 1.2rem;
+}
+.courgette {
+  font-family: 'Courgette', cursive;
 }
 
 /* SECOND SECTION BREAK POINT */
@@ -249,19 +290,25 @@ background-color: seashell;
 .thirdSection {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 2rem 4.5rem;
+  padding: 2rem 0;
   background-color: seashell;
 }
 .thirdSection h1 {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 2rem;
   font-weight: bold;
+  font-size: 2rem;
+}
+#thirdSectionh1Font {
+font-size: 3rem;
 }
 .thirdSectionContainer {
   display: flex;
   justify-content: center;
+  width: 70%;
 }
 .thirdSectionContainerItem {
   display: flex;
@@ -280,6 +327,9 @@ background-color: seashell;
   text-align: left;
   padding: 1rem;
   margin-bottom: 0;
+}
+.thirdSectionContainer h2 {
+  font-family: 'Patua One', cursive;
 }
 .thirdSectionContainerText h2,
 .thirdSectionContainerText h3 {
@@ -330,7 +380,7 @@ background-color: seashell;
 .fourthSectionTitle {
   width: 100%;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 2rem 0;
 }
 .fourthSection {
