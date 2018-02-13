@@ -1,9 +1,9 @@
 html {
   font-size: 16px;
 }
-/*.border {
+.border {
   border: 1px solid black;
-}*/
+}
 .marginRight {
   margin-right: 1rem;
 }
@@ -549,7 +549,6 @@ font-size: 3rem;
     width: 100%;
   }
 }
-
 /* FOOTER */
 footer {
   padding: 1rem 1.5rem;
@@ -560,6 +559,17 @@ footer {
   display: flex;
   width: 7rem;
   justify-content: space-between;
+}
+.favicons {
+  height: 100%;
+}
+.favicons i {
+  padding: 0 1rem;
+  height: 100%;
+  border-radius: 1rem;
+}
+.favicons i:active {
+  background-color: rgb(255, 15, 15);
 }
 /* Footer break point */
 @media only screen and (max-width: 780px) {
