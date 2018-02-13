@@ -45,8 +45,8 @@ body {
   background-color: rgb(232, 108, 0)
 }
 
-/* HEADER */
-.header {
+/* TOP BAR */
+.topBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,29 +54,29 @@ body {
   height: 4rem;
   font-family: Verdana;
 }
-.headerLeft {
+.topBarLeft {
   display: flex;
   height: 100%;
   align-items: center;
 }
-.headerLeft h1 {
+.topBarLeft h1 {
   text-transform: uppercase;
   font-size: 2rem;
 }
-.headerRight {
+.topBarRight {
   height: 100%;
 }
-.headerRight a {
+.topBarRight a {
   color: darkblue;
   text-decoration: none;
   padding: 1.5rem 0.5rem;
   border-radius: 1rem;
 }
-.headerRight a:hover {
+.topBarRight a:hover {
   background-color: rgb(255, 163, 15);
   font-weight: bold;
 }
-.headerRightNav {
+.topBarRightNav {
   height: 100%;
   display: flex;
   align-items: center;
@@ -85,14 +85,14 @@ body {
 .mobileAppear {
   display: none;
 }
-.headerLeftLogo {
+.topBarLeftLogo {
   height: 100%;
 }
 .breakAppear {
   display: none;
 }
 
-/* HEADER BREAK POINT */
+/* TOP BAR BREAK POINT */
 
 @media only screen and (max-width: 1024px) {
   .breakDisappear {
@@ -104,15 +104,15 @@ body {
   #fiveRem {
     font-size: 5rem;
   }
-  .headerRight a {
+  .topBarRight a {
     width: 4rem;
   }
-  .headerRightNav img {
+  .topBarRightNav img {
     padding-left: 1rem;
   }
 }
 
-/* HEADER MOBILES */
+/* TOP BAR MOBILES */
 
 @media only screen and (max-width: 600px) {
   .mobileAppear {
@@ -121,7 +121,7 @@ body {
   .mobileDisappear {
     display: none;
   }
-  .header {
+  .topBar {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -129,18 +129,18 @@ body {
     padding: 0;
     height: 4rem;
   }
-  .headerLeft {
+  .topBarLeft {
     width: 100%;
     justify-content: space-around;
   }
-.headerLeftLogo {
+.topBarLeftLogo {
   height: 50%;
   }
-  .header img {
+  .topBar img {
     padding: 1rem;
     height: 60%;
   }
-  .header img:active {
+  .topBar img:active {
   background-color: rgb(255, 163, 15);
   }
 }
@@ -570,6 +570,11 @@ footer {
 }
 .favicons i:active {
   background-color: rgb(255, 15, 15);
+}
+.footerFlex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 /* Footer break point */
 @media only screen and (max-width: 780px) {
