@@ -508,17 +508,25 @@ font-size: 3rem;
 }
 .nextToVideoSection {
   width: 40%;
-  border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+.nextToVideoSectionBoxOne:hover {
+  border-radius: 0;
+  background-color: rgb(255, 163, 15);
+}
+.nextToVideoSectionBoxTwo:hover {
+  border-radius: 0;
+  background-color: rgb(255, 247, 15);
+}
 .nextToVideoSectionBox {
   display: flex;
   align-items: center;
-  width: 100%;;
+  width: 100%;
   border-radius: 2rem;
+  transition: border-radius 300ms ease-out 25ms, background-color 300ms ease-out 25ms;
 }
 .nextToVideoSectionBox img {
   margin: 1rem;
