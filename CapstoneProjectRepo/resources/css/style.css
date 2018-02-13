@@ -294,8 +294,20 @@ width: 100%;
   width: 100%;
   padding-left: 1rem;
 }
+.secondSectionB1Text:hover {
+  background-color: rgb(193, 86, 3);
+  color: rgb(255, 247, 15);
+}
+.secondSectionB1Text h1:hover {
+  letter-spacing: normal;
+}
+.secondSectionB1Text a:hover {
+  color: yellow;
+}
 .secondSectionB1Text h1 {
   font-size: 2rem;
+  letter-spacing: 0.75rem;
+  transition: letter-spacing 200ms linear 25ms;
 }
 .secondSectionB1Text h3 {
   padding: 1rem 0;
@@ -389,6 +401,9 @@ font-size: 3rem;
   flex-direction: column;
   padding-bottom: 1.5rem;
 }
+.thirdSectionContainerText:hover {
+  background-color: rgb(255, 247, 15);
+}
 .thirdSectionContainerText h1{
   font-weight: bold;
   text-align: left;
@@ -408,6 +423,20 @@ font-size: 3rem;
 
 /* THIRD SECTION BREAK POINT */
 @media only screen and (max-width: 1024px) {
+  .thirdSectionContainerText:hover {
+    background-color: transparent;
+  }
+  .thirdSectionContainerText h1 {
+    transition: text-align 700ms linear 25ms, background-color 100ms linear 25ms;
+  }
+  .thirdSectionContainerText h1:hover {
+    background-color: rgb(255, 247, 15);
+    text-align: center;
+  }
+  .thirdSectionContainerText h1:active {
+    background-color: rgb(255, 247, 15);
+    color: darkblue;
+  }
   .thirdSection {
     padding: 2rem 0;
   }
